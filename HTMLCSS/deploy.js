@@ -1,1 +1,0 @@
-var deployURL = "https://script.google.com/macros/s/AKfycbzZAuIg5CDNDt-wW8ZLu8GkU9-s4iw1ZJnP8S2WmdcQXbM_6TJIcY90_da_pyiRtCJ3/exec";
