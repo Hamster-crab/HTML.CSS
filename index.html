@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Bread Search</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Stoke|Yellowtail|Geo|Oswald|Lobster"
+    rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<!-- 検索ボックス -->
+<div class="searchBox">
+  <h1>Bread Search</h1>
+
+  <!-- 入力欄 -->
+  <div class="inputBox">
+    <h2>検索ワード</h2>
+    <select class="inputText">
+      <option>▼ パンを選んでください</option>
+      <option>サクサククロワッサン</option>
+      <option>レーズンデニッシュ</option>
+      <option>クラシックバゲット</option>
+      <option>こだわりライ麦パン</option>
+      <option>かぼちゃのクリームパン</option>
+      <option>もちもちベーグル</option>
+      <option>本格メロンパン</option>
+      <option>季節のサンドイッチ</option>
+      <option>甘口カレーパン</option>
+      <option>シナモンロール</option>
+    </select>
+    <button onclick="clickButton()">検索</button>
+  </div><!-- /.inputBox -->
+
+  <!-- 出力欄 -->
+  <div class="outputBox">
+    <h2>検索結果</h2>
+
+    <!-- 表 -->
+    <table>
+      <tr>
+        <th>パンの名前</th>
+        <td class="showText1">?</td>
+      </tr>
+      <tr>
+        <th>焼き上がり時間</th>
+        <td class="showText2">?</td>
+      </tr>
+      <tr>
+        <th>価格</th>
+        <td class="showText3">?</td>
+      </tr>
+      <tr>
+        <th>こだわりポイント</th>
+        <td class="showText4">?</td>
+      </tr>
+
+
+
+      
+    </table>
+
+  </div><!-- /.outputBox -->
+
+</div><!-- /.searchBox -->
+
+<!-- JavaScriptと連携する -->
+<script src="script.js"></script>
+<script src="common.js"></script>
+<script src="deploy.js"></script>
