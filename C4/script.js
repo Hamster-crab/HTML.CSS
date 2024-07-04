@@ -23,6 +23,9 @@ function onRequest(list) {
       // 4行目にpoint列の情報を表示する
       showText4(list[i]["point"]);
 
+      // 5行目にpoint列の情報を表示する
+      showText5(list[i]["ranking"] + "位");
+
 
 
 
@@ -43,6 +46,9 @@ function onRequest(list) {
 
       // 4行目に表示する
       showText4("?");
+
+      // 5行目に表示する
+      showText5("?");
 
 
 

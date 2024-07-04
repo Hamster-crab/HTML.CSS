@@ -23,6 +23,10 @@ function showText4(message) {
     $(".showText4").text(message);
 }
 
+// 5行目に文字を表示する関数
+function showText5(message) {
+    $(".showText5").text(message);
+}
 
 
 
